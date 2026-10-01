@@ -16,15 +16,25 @@ e19505de88b7   nginx:alpine   "/docker-entrypoint.…"   About a minute ago   Up
 ## Teste da Página
 
 root@ubuntu:~$ curl http://localhost:8085
+
 !DOCTYPE html
+
 html lang="pt-BR"
+
 head
+
 meta charsert="UTF-8"
+
 title ESTOQUE /title
+
 head
+
 body
+
 h1 Estoque disponivel /h1
+
 /body
+
 /html
 
 ## Explicação 
