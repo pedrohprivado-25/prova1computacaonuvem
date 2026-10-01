@@ -13,7 +13,7 @@ root@ubuntu:~$ docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED              STATUS              PORTS                                     NAMES
 e19505de88b7   nginx:alpine   "/docker-entrypoint.…"   About a minute ago   Up About a minute   0.0.0.0:8085->80/tcp, [::]:8085->80/tcp   estoque
 
-## teste da Página
+## Teste da Página
 
 root@ubuntu:~$ curl http://localhost:8085
 !DOCTYPE html
