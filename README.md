@@ -29,6 +29,6 @@ root@ubuntu:~$ curl http://localhost:8085
 
 ##Explicação 
 
-A imagem `nginx:alpine` é a base usada para criar o contêiner. Já o contêiner `estoque` é essa imagem funcionando na prática, onde coloquei meu arquivo `index.html`.
+A imagem nginx:alpine é a base usada para criar o contêiner. Já o contêiner estoque é essa imagem funcionando na prática, onde coloquei meu arquivo index.html.
 
-O `8085:80` serve para ligar a porta 8085 do Ubuntu com a porta 80 do contêiner. Assim, quando acesso `localhost:8085`, a solicitação é enviada para o Nginx dentro do contêiner, que mostra a página de estoque.
+O 8085:80 serve para ligar a porta 8085 do Ubuntu com a porta 80 do contêiner. Assim, quando acesso localhost:8085, a solicitação é enviada para o Nginx dentro do contêiner, que mostra a página de estoque.
