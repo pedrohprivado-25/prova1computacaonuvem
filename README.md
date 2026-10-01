@@ -27,7 +27,7 @@ root@ubuntu:~$ curl http://localhost:8085
 </body>
 </html>
 
-##Explicação 
+## Explicação 
 
 A imagem nginx:alpine é a base usada para criar o contêiner. Já o contêiner estoque é essa imagem funcionando na prática, onde coloquei meu arquivo index.html.
 
